@@ -52,7 +52,17 @@ const ExperienceItem = ({ item }) => {
                 <p className="company-name">{item.company.name}</p>
                 <p className="company-info text">{item.company.info}</p>
             </div>
-            <p className="exp-description text">{item.description}</p>
+            {/* <p className="exp-description text">{item.description}</p> */}
+            {Array.isArray(item.description) ? (
+                <ul className="exp-description text">
+                    {item.description.map((bullet, index) => (
+                        <li key={index}>{bullet}</li>
+                    ))}
+                </ul>
+            ) : (
+                /* Otherwise render as a single text block */
+                <p className="exp-description text">{item.description}</p>
+            )}
             <div className="exp=links">
                 {item.links?.map((link) => (
                     <a key = {link.label} href={link.url} className="text-mauve">

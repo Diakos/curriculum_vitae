@@ -29,7 +29,7 @@
     professionalExperiences: [
       {
         id: "prof_exp_1",
-        startDate: "JMay 2022",
+        startDate: "May 2022",
         endDate: "",
         position: "Technical Project Manager",
         diamondColors: ["Purple", "Yellow", "Blue"],
@@ -38,8 +38,14 @@
           name: "Knowledge Broadband SA",
           info: "Software Company in Patras, Greece",
         },
-        description:
-          "Serve as the primary communication bridge between customers and internal teams, ensuring alignment with project goals and customer expectations. Facilitate cross-functional collaboration, coordinating efforts between Business Analysts, Developers, Testers, and Designers to drive efficient project execution. Act as Scrum Master for an Agile Product Team, leading daily stand-ups, sprint planning, and retrospectives to ensure continuous delivery and process improvement. Ensure project milestones are met on time, within scope, and budget, while addressing any challenges that arise during the development cycle.",        links: [
+        description: 
+        [
+            "Serve as the primary communication bridge between customers and internal teams, ensuring alignment with project goals and customer expectations.",
+            "Facilitate cross-functional collaboration, coordinating efforts between Business Analysts, Developers, Testers, and Designers to drive efficient project execution.",
+            "Act as Scrum Master for an Agile Product Team, leading daily stand-ups, sprint planning, and retrospectives to ensure continuous delivery and process improvement.",
+            " Ensure project milestones are met on time, within scope, and budget, while addressing any challenges that arise during the development cycle.",
+        ],
+        links: [
           {
             label: "Knowledge SA",
             url: "https://www.knowledge.gr/",
@@ -48,110 +54,115 @@
       },
       {
         id: "prof_exp_2",
-        startDate: "Mar 2014",
-        endDate: "Feb 2017",
-        position: "SEO Specialist → Lead SEO Specialist",
+        startDate: "May 2022",
+        endDate: "Jan 2022",
+        position: "Full Stack Developer",
         diamondColors: ["Blue", "Orange", "Pink"],
         company: {
           // logo: CompanyLogo2,
-          name: "JOZ.by",
-          info: "Online bookstore in Minsk, Belarus",
+          name: "Knowledge Broadband SA",
+          info: "Software Company in Patras, Greece",
         },
         description:
-          "Improved website performance and user experience of the biggest online bookstore OZ in Belarus, being a part of the marketing team, I interpreted Google Analytics data to IT, content and marketing colleagues. Advised on tech and content optimization strategy, automated processes, provided reports, increased organic traffic up to 150%.",
+        [
+          "Engaged in full-stack development, building responsive and scalable web applications using ReactJS for frontend, NodeJS for backend services, and Grails for enhanced backend frameworks.",
+          "Contributed to both design and implementation phases, optimizing performance and ensuring code quality through continuous testing and iteration.",
+        ],
+          
         links: [
           {
-            label: "Annual company report 2016",
-            url: "",
+            label: "Knowledge SA",
+            url: "https://www.knowledge.gr/",
           },
         ],
       },
       {
         id: "prof_exp_3",
-        startDate: "Aug 2012",
-        endDate: "Nov 2013",
-        position: "Content Specialist",
+        startDate: "Mar 2019",
+        endDate: "Jul 2021",
+        position: "Database Engineer on Behalf of Treelogics GBMH",
         diamondColors: ["Green", "Yellow", "Purple"],
         company: {
           // logo: CompanyLogo3,
-          name: "21vek Private Ltd.",
-          info: "E-commerce store in Minsk, Belarus",
+          name: "Santander Bank",
+          info: "Spanish Bank HQ in Moenchengladbach, Germany",
         },
         description:
-          "Added and modified the product information, prepared images and text for the website, developed categories filters, ensure all info is correct in the catalogue with the goal of improving online shopper experience.",
-        links: [],
+        [
+          "Contributed to a large-scale Data Warehouse project, developing and optimizing SQL, PL/SQL, and Oracle components to support robust data processing and reporting functions.",
+          "Played a key role in maintaining production applications by performing detailed testing, identifying bugs, and implementing efficient fixes to ensure system reliability and performance.",
+          "Collaborated with cross-functional teams to improve data accuracy, streamline ETL processes, and support business intelligence initiatives.",
+        ],
+          
+        links: [
+          {
+            label: "Santander Bank Moenchengladbach",
+            url: "https://www.santander.de/privatkunden/",
+          },
+        ],
       },
       {
         id: "prof_exp_4",
-        startDate: "Aug 2011",
-        endDate: "Nov 2014",
-        position: "Software Support Engineer",
+        startDate: "Mar 2022",
+        endDate: "Oct 2018",
+        position: "Software Engineer",
         diamondColors: ["Green", "Yellow", "Purple"],
         company: {
           // logo: CompanyLogo4,
-          name: "Integral",
-          info: "Microelectronics factory in Minsk, Belarus",
+          name: "Treelogics Software GMBH",
+          info: "Software company in Bonn, Germany",
         },
         description:
-          "Supported retail accounting system LS Trade, troubleshoot technical problems.",
-        links: [],
+        [
+          "Specialized in Oracle technologies, including Oracle SQL, PL/SQL, Oracle Apex, and Oracle Data Warehouse, delivering tailored solutions across various projects.",
+          "Served as a contractor for multiple companies, developing and implementing software systems based on client-specific requirements and business needs.",
+          "Led the design, development, and deployment of data-driven applications, ensuring scalability, performance, and alignment with client goals.",
+          "Collaborated with cross-functional teams to integrate custom solutions into existing infrastructures, optimizing processes and improving operational efficiency.",
+        ],
+          
+        links: [
+          {
+            label: "Treelogics Software GMBH",
+            url: "http://www.treelogics.de/",
+          },
+        ],
+      },
+      {
+        id: "prof_exp_4",
+        startDate: "Nov 2016",
+        endDate: "Jul 2017",
+        position: "Intern Software Developer",
+        diamondColors: ["Green", "Yellow", "Purple"],
+        company: {
+          // logo: CompanyLogo4,
+          name: "Treelogics Software GMBH",
+          info: "Software company in Bonn, Germany",
+        },
+        description:
+        [
+          "Assisted in developing and implementing software solutions in alignment with client requirements, contributing to full development cycles.",
+          "onducted thorough testing and debugging of software applications, ensuring optimal functionality and reliability prior to production rollout.",
+          "Collaborated with senior developers, gaining hands-on experience in software development best practices and methodologies.",
+        ],
+          
+        links: [
+          {
+            label: "Treelogics Software GMBH",
+            url: "http://www.treelogics.de/",
+          },
+        ],
       },
     ],
     educationalExperiences: [
       {
         id: "edu_1",
         // icon: DiamondLgBlue,
-        course: "Interface Design: Web & Mobile",
-        institution: "IT-Academy",
-        degree: "Diploma",
-        startDate: "2022",
-        endDate: "2023",
-      },
-      {
-        id: "edu_2",
-        // icon: DiamondLgGreen,
-        course: "Fundamentals of UX/UI",
-        institution: "Skillshare",
-        degree: "Beginner Course",
-        startDate: "2021",
-        endDate: "2022",
-      },
-      {
-        id: "edu_3",
-        // icon: DiamondLgOrange,
-        course: "CG Artist",
-        institution: "Polygon CG School",
-        degree: "Graduate",
-        startDate: "2018",
-        endDate: "2021",
-      },
-      {
-        id: "edu_4",
-        // icon: DiamondLgPink,
-        course: "Graphic Design",
-        institution: "Belarusian State Academy of Arts",
-        degree: "Postgraduate Diploma",
-        startDate: "2015",
-        endDate: "2018",
-      },
-      {
-        id: "edu_5",
-        // icon: DiamondLgYellow,
-        course: "SEO Specialist Workshop",
-        institution: "ARTOX Media",
-        degree: "",
-        startDate: "2015",
-        endDate: "2017",
-      },
-      {
-        id: "edu_6",
-        // icon: DiamondLgBlue,
-        course: "Information Technology Software",
+        course: "Computer Engineering & Informatics Department (CEID)",
         institution:
-          "Belarusian State University of Informatics and Radioelectronics",
-        degree: "Bachelor Degree",
+          "University of Patras (UoPA)",
+        degree: "Intergrated Master's",
         startDate: "2011",
-        endDate: "2015 ",
+        endDate: "2017 ",
       },
     ],
     skills: [
@@ -208,26 +219,42 @@
       {
         id: "cert_award_1",
         // icon: Coursera,
-        provider: "Coursera",
-        course: "UI/UX Advance Course",
-        startDate: "Dec 2021",
-        endDate: "Feb 2022",
+        provider: "Scrum",
+        course: "Project Scrum Master I (PSM I)",
+        startDate: "Dec 2022",
+        endDate: "Jan 2023",
       },
       {
         id: "cert_award_2",
         // icon: Google,
-        provider: "Google",
-        course: "Google UX Design Professional Certificate",
-        startDate: "Mar 2021",
-        endDate: "Jun 2021",
+        provider: "Udemy",
+        course: "Become a Product Manager",
+        startDate: "Nov 2022",
+        endDate: "Dec 2022",
       },
       {
         id: "cert_award_3",
         // icon: Udemy,
         provider: "Udemy",
-        course: "Fundamental of UI/UX for Students",
-        startDate: "Jun 2020",
-        endDate: "Sept 2020",
+        course: "Successful Development of Oracle Data Warehouse",
+        startDate: "Jul 2021",
+        endDate: "Jul 2021",
+      },
+      {
+        id: "cert_award_3",
+        // icon: Udemy,
+        provider: "UXQB",
+        course: "Usability & User Experience (CPUX-F)",
+        startDate: "May 2020",
+        endDate: "May 2020",
+      },
+      {
+        id: "cert_award_3",
+        // icon: Udemy,
+        provider: "DOAG",
+        course: "Oracle Connect",
+        startDate: "May 2019",
+        endDate: "May 2019",
       },
     ],
     hobbiesAndInterests: [

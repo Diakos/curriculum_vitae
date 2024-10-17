@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedin, FaPhone } from "react-icons/fa"
+import { FaEnvelope, FaLinkedin, FaPhone, FaMedium } from "react-icons/fa"
 import { Profile } from "../../assets/image"
 import { Link } from "react-router-dom"
 
@@ -38,9 +38,17 @@ const Header = () => {
                             </ul>
                             <ul className="social-info-list flex items-center">
                                 <li className="social-item">
-                                    <Link to="https://www.linkedin.com/in/ioannis-jannis-diakodimitriou-490850119/">
+                                    <Link to="https://www.linkedin.com/in/ioannis-jannis-diakodimitriou-490850119/" target="_blank">
                                         <FaLinkedin />
                                         <span className="tooltip-text"> LinkedIn</span>
+                                    </Link>
+                                </li>
+                            </ul>
+                            <ul className="social-info-list flex items-center">
+                                <li className="social-item">
+                                    <Link to="https://medium.com/@jdiakos75" target="_blank">
+                                        <FaMedium />
+                                        <span className="tooltip-text"> Medium</span>
                                     </Link>
                                 </li>
                             </ul>
