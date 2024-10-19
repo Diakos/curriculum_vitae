@@ -35,6 +35,9 @@ const EducationItem = ({ item }) => {
                 {" "}
                 {item.degree && `${item.degree}`}
             </p>
+            <p className="edu-info text">
+                Thesis At {item.thesis}
+            </p>
         </div>
     )
 }
