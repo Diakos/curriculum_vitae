@@ -12,9 +12,11 @@ const Header = () => {
                             <img src={Profile} alt="profile" className="profile" />
                             <h1 className="header-info text-white">Jannis Diakodimitriou</h1>
                         </div>
-                            <p className="header-text text text-white">As a seasoned software engineer and project manager, I bring a wealth of technical knowledge and experience to the table. With a background in computer engineering and informatics and expertise in various coding languages and systems, I have a proven track record of delivering complex software solutions and managing cross-functional teams.
 
-                                I am passionate about bridging the gap between technology and business, and I thrive in fast-paced, dynamic environments. Whether it's leading Agile product teams, developing and implementing software solutions, or communicating with customers, I am driven by a desire to help businesses achieve their ambitions faster.</p>
+
+                            <p className="header-text text text-white">As an experienced Project Manager with a solid foundation in software engineering, I bring a unique blend of technical expertise and leadership to every project.
+                                 My background in computer engineering and informatics, combined with proficiency in various coding languages and systems, allows me to effectively manage cross-functional teams and drive the successful delivery of complex software solutions. I am passionate about aligning technology with business objectives, fostering collaboration among stakeholders, and navigating the dynamic challenges of fast-paced environments
+                                . Whether I’m leading Agile product teams, implementing strategic initiatives, or engaging with customers, my focus is on empowering organizations to achieve their goals efficiently and effectively.</p>
                         </div>
                         <div className="header-contact">
                             <ul className="contact-info-list grid">
